@@ -23,6 +23,10 @@ etc/init.ath3k.bt.sh
 etc/init.qcom.coex.sh:etc/init.galbi.coex.sh
 -framework/com.broadcom.bt.jar
 
+# FM Radio ...pending
+#-framework/com.broadcom.fm.jar
+# etc/permissions/com.broadcom.fm.xml
+
 # Qualcomm framework
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
@@ -63,6 +67,7 @@ vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
+etc/permissions/btmultisim.xml
 
 # Venus (media) firmware
 etc/firmware/venus.b00
