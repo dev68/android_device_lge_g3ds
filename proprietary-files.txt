@@ -18,6 +18,10 @@ vendor/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd
 vendor/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd
 vendor/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
 
+# Bluetooth ...more from d858
+etc/init.ath3k.bt.sh
+etc/init.qcom.coex.sh:etc/init.galbi.coex.s
+
 # Qualcomm framework
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
