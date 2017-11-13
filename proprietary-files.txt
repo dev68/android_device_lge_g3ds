@@ -20,7 +20,8 @@ vendor/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
 
 # Bluetooth ...more from d858
 etc/init.ath3k.bt.sh
-etc/init.qcom.coex.sh:etc/init.galbi.coex.s
+etc/init.qcom.coex.sh:etc/init.galbi.coex.sh
+-framework/com.broadcom.bt.jar
 
 # Qualcomm framework
 vendor/lib/libdiag.so
